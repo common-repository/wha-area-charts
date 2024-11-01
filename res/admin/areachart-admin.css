@@ -1,0 +1,387 @@
+
+#whaac_sectionid_options_box .tabs-nav li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin: 0;
+
+}
+
+#whaac_sectionid_options_box .tabs-nav li:focus,
+#whaac_sectionid_options_box .tabs-nav li:active,
+#whaac_sectionid_options_box .tabs-nav li a:focus,
+#whaac_sectionid_options_box .tabs-nav li a:active {
+    outline: none;
+    box-shadow: none;
+}
+
+
+#whaac_sectionid_options_box .tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#whaac_sectionid_options_box .tabs-nav li:first-child a {
+    border-right: 0;
+}
+
+#whaac_sectionid_options_box .tabs-nav .tab-active a {
+    background: hsl(0, 100%, 100%);
+    border-bottom-color: hsla(0, 0%, 0%, 0);
+    color: #2196F3;
+    cursor: default;
+    z-index: 1;
+    position: relative;
+}
+
+#whaac_sectionid_options_box input.jscolor {
+    border-radius: 0;
+}
+
+#whaac_sectionid_options_box input[type=number] {
+    height: 27px;
+}
+
+#whaac_sectionid_options_box #add_boundaries_x_labels,
+#whaac_sectionid_options_box #add_boundaries_y_labels,
+#whaac_sectionid_options_box #add_boundaries_data,
+#whaac_sectionid_options_box #whaac_dataset_add_data,
+#whaac_sectionid_options_box #whaac_dataset_add_row,
+#whaac_sectionid_options_box #whaac_dataset_add_y_labels,
+#whaac_sectionid_options_box #whaac_dataset_add_x_labels {
+    padding: 5px 25px;
+    background: #2196F3;
+    border: none;
+    color: white;
+    margin: 10px 15px;
+}
+
+#whaac_sectionid_options_box #add_boundaries_data,
+#whaac_sectionid_options_box #add_boundaries_x_labels {
+    margin-left: 0;
+}
+
+#whaac_sectionid_options_box .datasets_settings {
+    padding: 15px;
+    border: 1px solid #c9c8c8;
+}
+
+#whaac_sectionid_options_box .datasets_settings_item {
+    width: 33%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#whaac_sectionid_options_box #add_boundaries_y_labels,
+#whaac_sectionid_options_box #whaac_dataset_add_y_labels {
+    background: #8bc34a;
+    margin-left: 0;
+}
+
+#whaac_sectionid_options_box .remove_row {
+    float: right;
+    margin: 0;
+}
+
+#whaac_sectionid_options_box #add_boundaries_y_labels.active {
+    background: #F44336;
+}
+
+#whaac_sectionid_options_box .whaac_boundaries_labels_check,
+#whaac_sectionid_options_box .whaac_dataset_labels_check {
+    display: none;
+}
+
+
+#whaac_sectionid_options_box .whaac_boundaries_y_labels,
+#whaac_sectionid_options_box .boundaries,
+#whaac_sectionid_options_box .datasets,
+#whaac_sectionid_options_box .whaac_dataset_y_labels {
+    display: none;
+}
+
+#whaac_sectionid_options_box .chart_type_active {
+    display: block;
+}
+
+#whaac_sectionid_options_box .whaac_dataset_item {
+    padding: 15px;
+    border: 1px solid #c9c8c8;
+    margin: 15px 0;
+}
+
+#whaac_sidebar .handlediv,
+#whaac_sidebar .hndle.ui-sortable-handle,
+#whaac_sidebar.postbox {
+    display: none;
+}
+
+#whaac_sidebar .inside {
+    background: white;
+    border: 1px solid #41b4f7;
+    padding: 25px 15px;
+}
+
+
+#whaac_sidebar .inside h1,
+#whaac_sidebar .inside h2,
+#whaac_sidebar .inside h3,
+#whaac_sidebar .inside h4,
+#whaac_sidebar .inside h5 {
+    padding: 0 !important;
+}
+
+#whaac_sidebar .inside h4 {
+    margin: 10px 0;
+}
+
+#whaac_sidebar .inside h1 {
+    font-size: 19px;
+    color: #41b4f7;
+    font-weight: bold;
+    text-align: center;
+}
+
+#whaac_sidebar .whaac_sidebar_list li {
+    margin: 0;
+}
+
+#whaac_sidebar .whaac_sidebar_list {
+    font-size: 12px;
+    line-height: 21px;
+    margin: 0;
+}
+
+wha {
+    color: #41b4f7;
+}
+
+#whaac_sidebar .whaac_logo_wrap {
+    text-align: center;
+    padding: 15px;
+}
+
+#whaac_sidebar .whaac_logo_wrap img {
+    width: 100%;
+    max-width: 100px;
+}
+
+#whaac_sectionid_options_box .remove,
+#whaac_sectionid_options_box .remove_row {
+    background: #F44336;
+    border: none;
+    width: 26px;
+    height: 26px;
+    color: white;
+    line-height: 0;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#whaac_sectionid_options_box .tabs-nav a {
+    background: hsl(120, 11%, 96%);
+    border: 1px solid hsl(210, 6%, 79%);
+    color: hsl(215, 6%, 57%);
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 140px;
+}
+
+#whaac_sectionid_options_box .tabs-nav li {
+    float: left;
+}
+
+#whaac_sectionid_options_box .tabs-stage {
+    border: 1px solid hsl(210, 6%, 79%);
+    clear: both;
+    margin-bottom: 20px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+    max-width: 800px;
+}
+
+#whaac_sectionid_options_box .whaac_dataset_item .tabs-stage {
+    max-width: 100%;
+}
+
+#whaac_sectionid_options_box .tabs-stage p {
+    margin: 0;
+    padding: 20px;
+    color: hsl(0, 0%, 33%);
+}
+
+#whaac_sectionid_options_box #tab-1,
+#whaac_sectionid_options_box #tab-2 {
+    padding: 15px;
+}
+
+#whaac_sectionid_options_box .tabs-stage label span {
+    width: 70px;
+    display: inline-block;
+}
+
+.whaac_field {
+    padding: 4px 0;
+}
+
+.whaac_flex {
+    display: flex;
+    padding: 30px 0;
+}
+
+/*----------------------------------------------------*/
+
+#whaac_sectionid_options_box .chart_type {
+    padding: 0 15px;
+    border-right: 1px solid #b2b2b2;
+}
+
+#whaac_sectionid_options_box .chart_type:last-child {
+    border: none;
+}
+
+#whaac_sectionid_options_box .chart_preview {
+    padding: 15px;
+}
+
+#whaac_sectionid_options_box .chart_preview .wrapper {
+    display: inline-block;
+    min-height: 256px;
+    width: 500px !important;
+}
+
+/* Copy */
+.wha-tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.wha-tooltip .wha-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.wha-tooltip .wha-tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+.js-copytextarea {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    line-height: 0;
+}
+
+.note {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.note i {
+    padding-right: 12px;
+    font-size: 25px;
+    color: #0085ba;
+}
+
+.note p {
+    color: grey;
+}
+
+
+/* Button Animation */
+
+#whaac_sidebar .btn {
+    background: #41b4f7;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 14px 21px;
+    border: 2px solid #41b4f7;
+    transition: color 0.1s cubic-bezier(0.16, 0.08, 0.355, 1), background 0.1s cubic-bezier(0.16, 0.08, 0.355, 1);
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#whaac_sidebar .btn-border {
+    background-color: transparent;
+    color: #1d1d1d;
+}
+
+#whaac_sidebar .btn-arrow {
+    position: relative;
+    transition: background-color 300ms ease-out;
+}
+
+#whaac_sidebar .btn-arrow span {
+    display: inline-block;
+    position: relative;
+    transition: all 300ms ease-out;
+    will-change: transform;
+}
+
+
+#whaac_sidebar .btn-arrow:hover span {
+    transform: translate3d(-1rem, 0, 0);
+}
+
+#whaac_sidebar .btn-arrow svg {
+    position: absolute;
+    width: 1.3em;
+    right: 0;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 300ms ease-out;
+    will-change: right, opacity;
+}
+
+#whaac_sidebar .btn-arrow:hover svg,
+#whaac_sidebar .btn:hover svg {
+    opacity: 1;
+    right: -2rem;
+
+}
